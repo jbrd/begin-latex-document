@@ -1,0 +1,17 @@
+{{! Change the Mustache delimiters to || to prevent conflict with LaTeX syntax. }}
+{{=|| ||=}}
+\documentclass[a4paper,11pt]{article}
+
+\author{||author||}
+\title{||title||}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+||#sections||
+\section{||.||} ||! Using Mustache dot notation here to access current array element. ||
+Insert text here.
+
+||/sections||
+\end{document}

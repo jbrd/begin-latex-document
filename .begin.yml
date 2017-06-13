@@ -1,0 +1,20 @@
+#
+# A 'begin' template for beginning new LaTeX documents quickly.
+#
+# - Use the 'begin' command to install and run this template.
+# - For more information: https://github.com/jbrd/begin
+#
+# This template creates a LaTeX source and a makefile for building
+# a .pdf from this LaTeX source. A make target for cleaning the
+# project is also provided.
+#
+tags: !!omap  # Using YAML ordered mapping to define order in which fields are presented to the user
+    projectname:
+        label: Project Name
+    title:
+        label: Title
+    author:
+        label: Author
+    sections:
+        label: Sections
+        array: true
